@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+   
+font-family: 'Noto Serif', serif;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1{
+    color: yellow;
+    text-align: center;
+    font-family:'Srirarcha',cursive;
+    font-size: 44px;
+}
+p{
+    color: yellowgreen;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Srirarcha',cursive;
+}
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.pp{
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   opacity: 1.5;
+}
+.submitMsg{
+  color: green;
+}
